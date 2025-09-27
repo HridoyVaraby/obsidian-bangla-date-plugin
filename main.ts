@@ -8,10 +8,7 @@ export default class BanglaDatePlugin extends Plugin {
 			id: 'insert-bangla-date',
 			name: 'Insert Bangla Date',
 			editorCallback: (editor: Editor, _view: MarkdownView) => {
-				const doc = editor.getDoc();
-				const content = doc.getValue();
-				const newContent = content.replace(/\{\{bn-date\}\}/g, getFormattedBanglaDate());
-				doc.setValue(newContent);
+				editor.replaceSelection(getFormattedBanglaDate());
 			}
 		});
 	}
