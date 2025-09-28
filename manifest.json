@@ -1,11 +1,11 @@
 {
 	"id": "obsidian-bangla-date-tag",
 	"name": "Bangla Date Tagger",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"minAppVersion": "0.15.0",
-	"description": "Replaces a tag with formatted Bangla and English dates.",
-	"author": "Your Name",
-	"authorUrl": "",
+	"description": "Automatically replaces {{bn-date}} with the current Bangla and English date when you press Space or Enter. Also provides a command for manual insertion.",
+	"author": "Hridoy Varaby",
+	"authorUrl": "https://varabit.com",
 	"fundingUrl": "",
 	"isDesktopOnly": false
 }
