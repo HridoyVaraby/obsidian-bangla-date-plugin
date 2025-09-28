@@ -1,33 +1,45 @@
 # Obsidian Bangla Date Tagger
 
-This plugin for Obsidian inserts the current date in both Bangla and English formats at the cursor position.
+This plugin for Obsidian automatically inserts the current date in both Bangla and English formats.
 
 ## How it Works
 
-The plugin provides a command that inserts a formatted date string at your current cursor location.
+Simply type `{{bn-date}}` in any note and press `Space` or `Enter`. The shortcode will be instantly replaced with the current date, beautifully formatted.
 
 **Example Output:**
 
-`📅 বাংলা তারিখ: শনিবার, ১২ আশ্বিন ১৪৩২ । 📅 ইংরেজি তারিখঃ শনিবার, ২৭ সেপ্টেম্বর ২০২৫`
+`📅 বারঃ রবিবার; বাংলা তারিখ: ১৩ আশ্বিন, ১৪৩২ । 📅 ইংরেজি তারিখঃ ২৮ সেপ্টেম্বর, ২০২৫ ;`
+
+*Note: The date in the example is for demonstration. The plugin will always generate the current date.*
+
+The plugin also provides a manual command to insert the date if you prefer.
 
 ## How to Use
 
-1.  Place your cursor where you want the date to appear in any note.
+### Automatic Replacement (Recommended)
+
+1.  In any note, type the shortcode `{{bn-date}}`.
+2.  Press the `Space` bar or the `Enter` key.
+3.  The shortcode will be automatically replaced with the formatted date string.
+
+### Manual Insertion
+
+1.  Place your cursor where you want the date to appear.
 2.  Open the Command Palette (using `Ctrl+P` on Windows/Linux or `Cmd+P` on macOS).
 3.  Search for the command `Insert Bangla Date` and execute it.
 4.  The formatted date string will be inserted at your cursor.
 
-For faster use, it is recommended to set a hotkey for the `Insert Bangla Date` command in Obsidian's settings (`Settings` > `Hotkeys`).
+For even faster manual use, you can set a hotkey for the `Insert Bangla Date` command in Obsidian's settings (`Settings` > `Hotkeys`).
 
 ## Installation
 
 ### From the Community Plugins Store
 
-(Coming Soon) Once the plugin is published, you will be able to install it directly from the Obsidian Community Plugins store.
+(Coming Soon) Once the plugin is published, you will be able to install it directly from the Obsidian Community Plugins store by searching for "Bangla Date Tagger".
 
 ### Manual Installation
 
-1.  Download the `main.js`, `manifest.json`, and `styles.css` files from the [latest release](https://github.com/your-username/obsidian-bangla-date-tag/releases).
+1.  Download the `main.js`, `manifest.json`, and `styles.css` files from the [latest release](https://github.com/hridoyvaraby/obsidian-bangla-date-tag/releases).
 2.  Go to your Obsidian vault's folder.
 3.  Navigate to the `.obsidian/plugins/` directory.
 4.  Create a new folder named `obsidian-bangla-date-tag`.
